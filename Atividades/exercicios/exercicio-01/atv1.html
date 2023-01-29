@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de pessoas</title>
+</head>
+<body>
+    <a href="relatorio.html">relatorio</a>
+    <h1>Dados do Cadastro</h1>
+    <form action="atv1.html" name="cadastro" method="get">
+        <div>
+            <label for="nomeDaPessoa">Nome:</label>
+            <input type="text" name="nome" id="nomeDaPessoa" placeholder="nome">
+        </div>
+
+        <div>
+            <label for="">senha: </label>
+            <input type="text" name="nome" id="senha" placeholder="senha">
+        </div>
+        
+
+        <div>
+            <input type="radio" name="genero" id="masculino" value="M">
+            <label for="">masculino</label>
+        </div>
+
+        <div>
+            <input type="radio" name="genero" id="feminino" value="F">
+            <label for="">feminino</label>
+        </div>
+        <h4>areas de interesse</h4>
+        <div>
+            <input type="checkbox" name="area[0]" id="web">
+            <label for="">Sistemas Web</label>
+        </div>
+        <div>
+            <input type="checkbox" name="area[1]" id="bd">
+            <label for="">banco de dados</label>
+        </div>
+        <div>
+            <input type="checkbox" name="area[2]" id="paa">
+            <label for="">paa</label>
+        </div>
+        <input type="submit" value="Cadastrar">
+        <input type="reset" value="limpar">
+    </form>
+</body>
+</html>

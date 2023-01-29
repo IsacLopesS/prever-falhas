@@ -1,0 +1,43 @@
+body{
+     background: rgba(219, 239, 222, 1);
+     font: 20px "Times New Roman", Times, serif; ;
+}
+#area-cabeçalho{
+    background: rgba(56, 88, 135, 1);
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.conteudo {
+    width: 120px;
+    padding: 20px;
+    margin: 0px 0px 5px 30px;
+}
+#container{
+    background-color: aliceblue;
+    width: 500px;
+    height: 200px;
+    padding: 50px 0px 0px 40px;
+    margin: 0px 0px 0px 200px;
+
+}
+#centro{
+    margin-left: 200px;
+    margin-bottom: 5px;
+    color:brown;
+    font: italic bold  40px "Times New Roman", Times, serif;
+}
+#imgmoeda{
+    position: fixed;
+        top: 325px; 
+        bottom: 800px;
+        left: 790px;
+        right: 0px; 
+}
+#detalhes{
+    margin-right: 0px;
+}
+#ir{
+    font-size: 15px;
+    padding: 0px 25px 0px 25px;
+}

@@ -1,0 +1,194 @@
+.titulo{
+    /* caraça tranportes e turismo */
+
+
+    position: absolute;
+    width: 878px;
+    height: 0px;
+    left: 325px;
+    top: 45px;
+
+    font-family: 'Grechen Fuemen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 59.5878px;
+    line-height: 0px;
+    /* identical to box height, or 0% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+
+    /* vermelho */
+
+    color: #E01414;
+
+    mix-blend-mode: normal;
+}
+.imgheader{
+    position: absolute;
+    width: 109.03px;
+    height: 73px;
+    left: 194.22px;
+    top: 0px;
+    
+}
+.header{
+    position: absolute;
+    width: 1537px;
+    height: 119px;
+    left: -3px;
+    top: 0px;
+    
+    /* amarelo */
+
+    background: #FDFF88;
+    border-radius: 24px;
+}
+.menu{
+    position: absolute;
+    width: 423px;
+    height: 35px;
+    left: 367px;
+    top: 140px;
+
+
+}
+.corpo{
+    position: absolute;
+    width: 1537px;
+    height: 514px;
+    left: -3px;
+    top: 237px;
+
+    /* fundo01 */
+
+    background: #FD7D07;
+    border-radius: 10px;
+    
+}
+.rodape{
+    position: absolute;
+    width: 1543px;
+    height: 85px;
+    left: -3px;
+    top: 752px;
+
+    background: #C4C4C4;
+    border-radius: 10px;
+}
+.titulo-corpo{
+    position: absolute;
+    left: 7.09%;
+    right: 62.52%;
+    top: 5.84%;
+    bottom: 85.8%;
+    
+    font-family: 'Homenaje';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 200px;
+    /* or 500% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: lowercase;
+    
+    color: #FCD508;
+
+}
+.caixa-de-dados{
+    /* Rectangle 3 */
+
+    position: absolute;
+    left: 3.97%;
+    right: 52.83%;
+    top: 15.95%;
+    bottom: 8.17%;
+
+    /* amarelo */
+
+    background: #FDFF88;
+    border-radius: 24px;
+
+    text-align: center;
+
+}
+.pague{
+    /* pague */
+
+    position: absolute;
+    width: 65px;
+    height: 37px;
+    left: 963px;
+    top: 140px;
+
+    font-family: 'Homenaje';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    /*line-height: 200px;*/
+    /* or 667% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: lowercase;
+
+    color: #000000;
+}
+.img-onibus{
+    position: absolute;
+    left: 51.48%;
+    right: 5.96%;
+    top: 12.45%;
+    bottom: 22.37%;
+}
+.espaco{
+    padding: 12px;
+    font-size: 40px;
+    margin-top: 12px;
+}
+.buscar{
+   
+    padding: 10px 60px 10px 60px;
+    background: #FCD508;
+    border-radius: 10px;
+    
+    color: #1266B4;
+    font-size: 20px;
+}
+.input{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.24);
+    padding: 5px 30px 5px 30px;
+    border: green 1px solid;
+    border-radius: 10px;
+}
+.texto-rodape{
+    text-align: center;
+    font-size: 20px;
+    text-decoration-line: underline;
+    font-style: italic;
+    padding-top: 10px ;
+}
+a { 
+    text-decoration: none;
+}
+a:link {
+    color: #000000;
+}
+a:visited {
+    background: FCD508;
+}
+a:hover {
+    color: #fff;
+    background:#C4C4C4 ;
+}
+/* links ativos quando clicados*/
+a:active {
+    color:#e4f371;
+}

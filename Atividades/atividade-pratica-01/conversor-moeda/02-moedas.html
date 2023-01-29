@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONVERSOR DE MOEDAS</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <script src="funcoes.js"></script>
+</head>
+<body onload="CarregarMoedas()">
+    <div id="area-cabeçalho">
+        <h1>Conversor de Moedas</h1>
+    </div>
+        
+    <div>
+        <span class="conteudo">
+            <label for="">Valor:</label>
+            <input type="number" step="0.01" min="0.01" id="valor" name="valor">
+        </span>
+        
+        <span class="conteudo">
+            <label for="">Converter de</label>
+            <select name="meoda_origem" id="moeda_origem">
+            <option value="">selecione</option>
+            </select>
+        </span>
+
+        <span class="conteudo">
+            <label for="">para</label>
+            <select name="meoda_destino" id="meoda_destino">
+            <option value="">selecione</option>
+            </select>
+        </span>
+        <span class="conteudo">
+            <button id="ir" onclick="BuscarResultado()">ir</button>
+        </span>
+        <span class="conteudo">
+            <input type="text" readonly="readonly"  id="input">
+        </span>
+    
+        <h3 id="centro">Detalhes</h3>
+        <div id="container">
+            
+            <div id="detalhes"></div>
+        </sp>
+
+        <div id="imgmoeda">
+            <img width="300px" src="imagens/moedas.png">
+        </div>
+    </div>
+
+    
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de PIX</title>
+    <script src="funcoes.js"></script>
+    <link rel="stylesheet" type="text/css" href="estilopix.css">
+</head>
+<body onload="CarregarBancos()">
+    <div class="cabecalho">
+        <img id="img-pix" src="imagens/pix.png">   
+     </div>
+        <div id="espaco">
+            
+            <h4>tipo de transferencia</h4>
+            <div>
+                <input type="radio" name="enviar_receber" value="enviar"> Enviar<br>
+                <input type="radio" name="enviar_receber" value="receber"> Receber
+            </div>
+            <div>
+                <h4>Valor da tranferencia:</h4>
+                <input type="number" step="0.01" min="0.01" name="valor" id="valor">
+            </div>
+            <div>
+                <h4>Data da transferencia</h4>
+                <input type="date" name="data" id="data">
+                
+            </div>
+            <div>
+                <h4>Selecione o tipo de chave PIX:</h4>
+                <select name="tipo-chave" id="tipo-chave" onchange="TipoDeChavePIX(value)">
+                    <option value="">selecione:</option>
+                    <option value="CPF">CPF</option>
+                    <option value="CNPJ">CNPJ</option>
+                    <option value="e-mail">e-mail</option>
+                    <option value="celular">celular</option>
+                </select>
+            </div>
+        
+        <div id="div-chave-pix-escolhida"></div>
+        <div>
+            <h4>Selecione o Banco:</h4>
+            <select name="banco" id="banco">
+                <option value="">selecione</option>
+            </select>
+        </div>
+        <button onclick="carregarTabela()">Clique aqui para Finalizar</button><br>
+
+    </div>
+    <span id="resumo">Resumo</span>
+        <table id="tabela" border="2">
+            <tr>
+                <th>Tipo de operação</th>
+                <th>Data</th>
+                <th>Valor da transferencia</th>
+                <th>Chave PIX</th>
+                <th>Banco</th>
+            </tr>
+        </table>
+    <span id="saldo"><center> <span id="tamanho">Saldo</span>  <br> R$ 00,00</center></span>
+    
+    
+</body>
+</html>
+

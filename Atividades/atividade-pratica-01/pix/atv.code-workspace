@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\curso online desenvolvimento web"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "pratica01"
+	}
+}
